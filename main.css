@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: url("images/background.jpg") no-repeat;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+}
+
+header h1 {
+	font-family: "antiquarian-scribe", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 60px;
+	text-align: center;
+	background-color: antiquewhite;
+	margin-bottom: 4px;
+}
+
+p {
+	background-color: rgb(0,0,0, .7);
+	color: antiquewhite;
+	padding: 8px;
+}
+
+.left {
+	float: left;
+	width: 400px;
+	margin: 10px;
+}
+
+.right {
+	float: left;
+	width: 400px;
+	margin: 10px;
+}
+
+.nextleft {
+	clear: both;
+	float: left;
+	width: 400px;
+	margin: 10px;
+}
+
+ul {
+	background-color: antiquewhite;
+	padding: 10px 5px 10px 5px;
+	text-align: center;
+	margin: 2px auto;
+	width: 85%;
+}
+
+nav li {
+	display: inline;
+	list-style: none;
+	margin: 0 20px 0 20px;
+	font-size: 18px;
+}
+
+nav li:before {
+  content: "-";
+  padding-right: 4px;
+}
+
+img {
+	border: 5px solid antiquewhite;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	background-color: antiquewhite;
+	padding: 8px;
+}
